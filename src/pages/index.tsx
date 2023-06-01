@@ -1,11 +1,13 @@
+import HeroCarousel from '@/components/hero-carousel/HeroCarousel';
 import MainLayout from '@/layouts/MainLayout';
 import { NextPageWithLayout } from '@/models/page.model';
 
 const HomePage: NextPageWithLayout = () => {
   return (
-    <div>
+    <>
+      <HeroCarousel />
       <h1 className="font-bold">Home Page</h1>
-    </div>
+    </>
   );
 };
 
