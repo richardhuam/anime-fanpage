@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F6F6F6;
+}
+
+@layer components {
+  .main-container {
+    @apply container px-4 md:px-8 lg:px-10; 
+  }  
+}
+
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
