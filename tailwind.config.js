@@ -111,7 +111,7 @@ module.exports = {
       boxShadow: {
         'auth-box': '0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%)',
         sidebar: 'rgb(113 122 131 / 11%) 0px 7px 30px 0px',
-        navbar: 'rgb(113 122 131 / 11%) 0px 7px 30px 0px',
+        navbar: 'rgb(113 122 131 / 8%) 0px 7px 30px 0px',
         'support-card': '0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%)',
         'slide-button': '0px 0px 10px 10px rgba(0,0,0,0.01)',
         'nav-collapse': '0 0 7px 0.5px rgb(0 0 0 / 15%)',
