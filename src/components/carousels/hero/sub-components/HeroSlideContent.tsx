@@ -19,7 +19,7 @@ const HeroSlideContent: FC<HeroSlideContentProps> = ({ description, image, title
         <p className="line-clamp-2 mt-2 text-15 md:text-18 font-light mb-4">{description}</p>
         <Button
           variant="custom"
-          className="py-5 bg-white text-teal-700 font-medium hover:bg-gray-50 transition-colors ease-in-out"
+          className="py-5 bg-white text-red-700 font-medium hover:bg-gray-50 transition-colors ease-in-out"
         >
           Watch more
         </Button>
@@ -29,7 +29,7 @@ const HeroSlideContent: FC<HeroSlideContentProps> = ({ description, image, title
           src={image}
           priority
           alt={`anime-${title}`}
-          className="absolute right-0 xl:right-20 -bottom-10 w-150 sm:w-200 md:w-250 xl:w-300 h-auto"
+          className="absolute right-0 xl:right-20 -bottom-16 xs:-bottom-20 md:-bottom-28 xl:-bottom-32 w-[180px] xs:w-[190px] sm:w-[250px] md:w-[310px] xl:w-400 h-auto"
         />
       </div>
     </div>

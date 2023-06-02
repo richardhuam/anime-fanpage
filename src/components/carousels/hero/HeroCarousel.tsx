@@ -12,7 +12,7 @@ const HeroCarousel = () => {
 
   return (
     <div className="h-[400px] xl:h-[530px] text-white relative select-none mb-2 md:mb-4 ">
-      <div className="h-[352px] xl:h-[475px] bg-teal-600 banner-clip-extra-small md:banner-clip-small xl:banner-clip">
+      <div className="h-[352px] xl:h-[475px] bg-red-600 banner-clip-extra-small md:banner-clip-small xl:banner-clip">
         <div className="main-container relative">
           <NextSlideButton isTransparent swiperRef={swiperRef} />
           <PrevSlideButton isTransparent swiperRef={swiperRef} />
