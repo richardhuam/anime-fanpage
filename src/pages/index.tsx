@@ -1,13 +1,15 @@
-import HeroCarousel from '@/components/hero-carousel/HeroCarousel';
+import HeroCarousel from '@/components/carousels/hero/HeroCarousel';
+import MoviesSection from '@/components/page-sections/home/movies-section/MoviesSection';
 import MainLayout from '@/layouts/MainLayout';
 import { NextPageWithLayout } from '@/models/page.model';
+import PageWrapper from '@/ui/PageWrapper';
 
 const HomePage: NextPageWithLayout = () => {
   return (
-    <>
+    <PageWrapper>
       <HeroCarousel />
-      <h1 className="font-bold">Home Page</h1>
-    </>
+      <MoviesSection />
+    </PageWrapper>
   );
 };
 
