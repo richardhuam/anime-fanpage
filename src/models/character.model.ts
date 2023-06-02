@@ -29,7 +29,7 @@ interface VoiceActor {
   language: string;
 }
 
-export interface AnimeCharacter {
+export interface MovieCharacters {
   character: Character;
   role: string;
   favorites: number;
