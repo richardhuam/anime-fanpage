@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,7 +6,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  /* background-color: #F6F6F6; */
 }
 
 @layer components {
@@ -44,7 +42,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #1E7064 !important;
+  background-color: #DC2626 !important;
 }
 
 
