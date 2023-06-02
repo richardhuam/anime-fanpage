@@ -1,8 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Anime Fan Page
+
+This is an anime fan page built with TypeScript, Next.js, and Tailwind CSS. It provides a platform for anime enthusiasts to explore, discover, and discuss their favorite anime series and movies.
+
+## Features
+
+- Browse a collection of popular anime titles
+- Search for specific anime by title, genre, or keyword
+- View detailed information about each anime, including synopsis, rating, and airing status
+
+## Technologies Used
+
+- TypeScript: A statically typed superset of JavaScript that enhances development experience and code quality.
+- Next.js: A React framework for building server-rendered React applications with easy setup and built-in routing.
+- Tailwind CSS: A utility-first CSS framework for building modern and responsive user interfaces.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
 ```bash
 npm run dev
